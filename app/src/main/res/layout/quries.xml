@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin">
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textStyle="bold|italic" android:textColor="#6b7994" android:textSize="20dip" android:layout_marginLeft="15dp" android:text="OFFICE : " android:id="@+id/textView2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="15dip" android:layout_marginLeft="15dp" android:text="Address:CSE DEpt,1st FLoor,A3Block" android:id="@+id/textView3"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="15dip" android:layout_marginLeft="15dp" android:text="Phone: (+91)9848678011" android:id="@+id/textView4"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="15dip" android:layout_marginLeft="15dp" android:text="Email : rgudvsminiproject@gmail.com" android:id="@+id/textView5"/>
+
+    <TextView android:layout_marginTop="15dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textStyle="italic" android:textColor="#6b7994" android:layout_marginLeft="15dp" android:text="Queries " android:id="@+id/tvfs"/>
+
+
+    <EditText android:layout_marginTop="10dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:id="@+id/etid" android:ems="10" android:layout_marginRight="16dp" android:hint="Enter ID">
+
+    <requestFocus/>
+
+</EditText>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:id="@+id/etemail" android:ems="10" android:layout_marginRight="16dp" android:hint="Enter Email(Optional)" android:inputType="textEmailAddress"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:id="@+id/etmes" android:ems="10" android:layout_marginRight="16dp" android:hint="Enter Your Message"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Submit" android:id="@+id/bsubmit" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+

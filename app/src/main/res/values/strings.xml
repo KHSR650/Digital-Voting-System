@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DVS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="voting">
+\tIn a democracy, a government is chosen by voting in an election:
+        a way for an electorate to elect, i.e. choose, among several candidates for rule.
+        In a representative democracy voting is the method by which the electorate appoints its representatives in its government.\n\n
+        \t\t\tWhen polling time so many people unable to come to their native places for vote.While coming for voting their money and time is being wasted.So from this system we can overcome this problem.
+        We can get voting without rigging.No one can wait at polling booths.No one cannot see how the people vote for someone.(Votes will be encrypted).We can conduct voting with in small period of time.\n\n
+    \t\t\t\tBy using digital voting system we can easily vote for the nomiees.We can increase the voting percentage also.It consumes less time for vote.</string>
+
+
+</resources>

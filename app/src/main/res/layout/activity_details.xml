@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/secondback"
+    android:layout_marginTop="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="aa"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stime"
+                android:layout_weight="1"
+                android:text="Starting time \n 12:12:11"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ftime"
+                android:text="Ending time \n 12:12:11"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:gravity="right"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Election"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        -<ScrollView
+        android:layout_height="176dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:flipInterval="5000"
+        android:autoStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/vdesc"/>
+
+    </ScrollView>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="mode"
+            android:textColor="@color/two"
+            android:layout_marginTop="10dp"
+            android:id="@+id/status"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="checking for voted or not"
+            android:textColor="@color/red"
+            android:layout_marginTop="10dp"
+            android:id="@+id/checking"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="View Results"
+            android:padding="20dp"
+            android:background="@drawable/butt_one"
+            android:onClick="voting_area"
+            android:id="@+id/go_vote"/>
+    </LinearLayout>
+</ScrollView>
+
+
+

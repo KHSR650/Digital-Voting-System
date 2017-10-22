@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_marginTop="40dp" android:layout_height="match_parent"
+     android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="aasa"
+        android:textColor="#5491e1"
+        android:id="@+id/heading"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:src="@drawable/j1"
+        android:layout_weight="0.25" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:textSize="30dp"
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+       android:id="@+id/n_name"/>
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+        android:layout_marginTop="20dp"
+       android:textSize="25dp"
+       android:layout_gravity="center"
+        android:id="@+id/n_age"/>
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+        android:layout_marginTop="20dp"
+       android:textSize="25dp"
+       android:layout_gravity="center"
+        android:id="@+id/n_party"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbol"
+        android:textSize="25dp"
+        android:id="@+id/n_symbol"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bell"
+        android:layout_weight="0.82" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/optlayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter OTP here "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OTP"
+            android:id="@+id/otp"
+            android:padding="30dp"
+            android:background="@drawable/edit_text2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Check_otp"
+            android:text="Submit"
+            android:background="@drawable/butt_three"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/Vote"
+        android:gravity="center"
+        android:text="Vote Nominee"
+        android:layout_gravity="center"
+        android:background="@drawable/butt_three"
+         />
+</LinearLayout>
+</ScrollView>
